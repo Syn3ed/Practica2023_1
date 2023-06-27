@@ -47,11 +47,11 @@ export class QuestionController {
 
   @Post('/add-calcul-q2')
   addQuestCalcul2(@Body() questDto:AddQuestionCalculDto){
-    return this.questionService.addQuestCalcul1(questDto)
+    return this.questionService.addQuestCalcul2(questDto)
   }
 
   @Post('/add-calcul-q3')
   addQuestCalcul3(@Body() questDto:AddQuestionCalculDto){
-    return this.questionService.addQuestCalcul1(questDto)
+    return this.questionService.addQuestCalcul3(questDto)
   }
 }
